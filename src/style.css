@@ -1,0 +1,21 @@
+/* Centering image in the entire page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ponty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.ponty:hover {
+  transform: scale(1.1);
+}
